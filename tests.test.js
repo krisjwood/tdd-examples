@@ -15,3 +15,13 @@ test('boiler test', () => {
     // ASSERT
     expect(actual).toBe(expected)
 })
+
+test('Test function exists', () => {
+    // ARRANGE
+    const expected = 'Test works'
+    // ACT
+    const actual = testing.testFunction()
+
+    // ASSERT
+    expect(expected).toBe(actual)
+})
